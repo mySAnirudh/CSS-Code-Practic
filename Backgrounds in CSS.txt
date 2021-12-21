@@ -1,0 +1,18 @@
+
+
+
+    [ !! CSS : Cascadng Styl Sheet !! ]
+
+
+7. CSS Backgnnds :-
+
+-You can set background-positn on pixel in your pickture also
+   Like : backgund-position: right top
+                           : right bottom
+                           : right center
+                           :center
+
+
+
+
+

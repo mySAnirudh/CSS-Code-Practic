@@ -1,0 +1,13 @@
+#hello {
+    /* border-style: groove;
+    border-radius: 20px; */
+
+/* border:dotted; */
+border-color: green;
+border-radius: 10px 20px 30px 40px;
+
+/* You can also give like this type */
+border-bottom-right-radius: 30%;
+
+
+}

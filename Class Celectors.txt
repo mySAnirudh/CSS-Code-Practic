@@ -1,0 +1,38 @@
+           
+           [ !! CSS : Cascading Style Sheet  !!]
+
+ Class Selectors :-
+
+ It's use to style the perticular elements :-
+
+- There is three types of base selectors
+1. Elements Selectors 
+2. ID Selectors
+3. Class Secectors
+
+-Class selectors gives multiple style at a same time 
+- It's use to select dot class (.class)
+
+- We can also use ID and Selectors at a time.
+
+- It's takes color from class and form from ID.
+
+- ID you can you one page at one time.
+
+-Class use multiple page at a time.
+
+- Prerorities of Value :-
+
+1. ID : Most Prarorities
+
+2. Class : Mid Prirorities
+
+3. Elements : Less Priorities
+
+-Oders dosent matter
+-If two times use then it's do first.
+
+Class : Class can use you can multiple time.
+
+
+

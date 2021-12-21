@@ -1,0 +1,19 @@
+           
+           [ !! CSS : Cascading Style Sheet  !!]
+
+
+- Colours in CSS :-
+
+-In CSS colours can be specified using Perdefined color name in CSS
+
+1. RGB   :- (Red,Green,Blue)
+2. RGBA  :- (Red,Green,Blue.Alpha) 
+3. HEX   :-
+4. HSL   :-
+5. HSLA  :-
+
+- You can also search on internate of find CSS colour.
+
+-Alpha is a number between (0.0 to 0....)
+
+THis is Colour Information FIle

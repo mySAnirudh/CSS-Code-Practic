@@ -1,0 +1,12 @@
+#anik{
+    border: solid red 10px;
+    padding-left: 40%;
+    padding-right: 30%;
+padding-top: 10%;
+padding-bottom: 20%;
+
+/* You can alos giev like : paddin:20px and 30px;this is top bottom and left right */
+/* padding: 30px 30px 30px 40px; */
+/* this mean clockwise  */
+
+}

@@ -1,0 +1,9 @@
+#border{
+    /* border-style: dotted; */
+    border-style: groove
+    ;
+    /*  See in suggestion  */
+    border-width: 4px 10px 2px 9px;
+    border-color: aqua;
+    
+}
