@@ -1,0 +1,10 @@
+#res{
+height: 500px;
+width: 500px;
+border: 2px solid green;
+    /* resize: none; */
+    overflow: scroll;
+/* resize: both; */
+
+resize: vertical;
+}

@@ -1,0 +1,15 @@
+img{
+    height: 20%;
+    width: 30%;
+    filter: blur(1px);
+    /* Blur always give in only pixel */
+    filter: brightness(50%);
+    filter: contrast(60%);
+    filter: drop-shadow(20px 40px red);
+    /* filter: grayscale(30%); It's use for change in image coler */
+    /* filter: invert(40%); */
+    /* filter: sepia(40px); */
+    /* filter: opacity(50%);  */
+    /* filter: saturate(40%);  */
+    
+}

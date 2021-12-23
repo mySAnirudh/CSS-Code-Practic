@@ -1,0 +1,18 @@
+h1{
+    height: 300%;
+    border: solid red 1px;
+  background-image: linear-gradient(yellow
+  blue
+  );  
+}
+#Liner{
+    height: 500%;
+    border: 1px solid green;
+    background-image: linear-gradient(green, blue);
+}
+
+#Sam{
+    height: 500%;
+    border: 1px solid green;
+    background-image: linear-gradient(green, blue);
+}

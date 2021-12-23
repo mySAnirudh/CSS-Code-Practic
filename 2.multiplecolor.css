@@ -1,0 +1,17 @@
+/* #ab{
+    height: 500px;
+    color: 2px solid red;
+    background-image: linear-gradient(green, blue, yellow
+    pink
+    );
+} */
+
+#hello{
+    height: 500px;
+    border: 1px solid gray;
+    /* background-image:linear-gradient(to bottom right, green,red ,yellow, pink); /*You can add multiple coloer */
+    /* as you want to give */ 
+
+    /* You can also change gradient in degree */
+ background-image: linear-gradient(120deg , red, green, blue);
+}

@@ -1,0 +1,24 @@
+table{
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+caption{
+    border: 1px solid blue;
+}
+
+tr{
+    border: solid rgb(54, 59, 54) 1px;
+}
+
+th{
+    border: solid green 1px;
+    height: 30px;
+    padding: 10px;
+    text-align: right;
+}
+td{
+    border: solid pink 1px;
+height: 15px;
+padding: 1px;
+text-align: left;
+}

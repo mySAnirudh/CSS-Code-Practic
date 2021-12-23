@@ -1,0 +1,23 @@
+
+:root{
+    --primary-color:red;
+    --btn-color:blue;
+    --text-color:white;
+}
+
+#fun{
+    background-color:var(--primary-color)
+    /* width: 400px; */
+    height: 200px;
+width: calc(100% - 200px); /*It's use for same size when decrese.*/
+
+
+
+}
+a{
+    padding: 10px 30px;
+    margin: 30px;
+    background-color: var(--btn-color)
+    color:var(--btn-color)
+    text-decoration: none;
+}

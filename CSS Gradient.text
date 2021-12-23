@@ -1,0 +1,17 @@
+Gradient :-
+ Two colour smoothly mix is called Gradient
+
+ There are two type of Gradient
+ 1.Linear Gradient
+ 2.Radiel Gradient
+
+
+  background-image:linear-gradient(to right, green,red ,yellow, pink); /*You can add multiple coloer
+    as you want to give */
+
+    You can aloso change the colour direction
+
+     background-image:linear-gradient(to bottom right, green,red ,yellow, pink); /*You can add multiple coloer
+    as you want to give */
+
+    

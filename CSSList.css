@@ -1,0 +1,14 @@
+ul{
+  /* list-style-type: none; */
+  /* list-style-type:circle; */
+  /* list-style-type:square ; */
+  list-style-type: armenian;
+}
+
+ol{
+    /* list-style-type: lower-latin; */
+   /* list-style-type: lower-alpha; */
+   /* list-style-type: lower-greek; */
+
+   list-style-type: decimal-leading-zero;
+}

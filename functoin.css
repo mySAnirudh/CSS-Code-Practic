@@ -1,0 +1,16 @@
+#fun{
+    background-color: green;
+    /* width: 400px; */
+    height: 200px;
+width: calc(100% - 200px); /*It's use for same size when decrese.*/
+
+
+
+}
+a{
+    padding: 10px 30px;
+    margin: 30px;
+    background-color: rebeccapurple;
+    color: white;
+    text-decoration: none;
+}
