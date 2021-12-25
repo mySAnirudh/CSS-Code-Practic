@@ -1,0 +1,113 @@
+
+
+ /* Flex Grow : It's cover the extra epmty space */
+
+
+ 
+.hello{
+    background-color: red;
+    display: flex;
+   flex-grow: 1;
+}
+
+.hello1{
+    background-color: pink;
+    margin: 20px;
+    padding: 20px;
+
+    width: 100px;
+    text-align: center;
+  
+}
+
+#One{
+    order: 1;
+   /* flex-grow: 1; */
+   flex-grow: 1;
+
+   
+
+
+}
+
+#Two{
+    order: 3;
+   /* flex-grow: 1; */
+   flex-grow: 3;
+
+
+}
+
+#Three{
+   order: 2;
+   /* flex-grow: 1; */
+   flex-grow: 1;
+}
+
+
+    
+
+/*  Flex Shrink : it's use to decrease item */
+ 
+.hello2{
+    background-color: red;
+    display: flex;
+   flex-grow: 1;
+}
+
+.hello1{
+    background-color: pink;
+    margin: 20px;
+    padding: 20px;
+
+    width: 100px;
+    text-align: center;
+  
+}
+
+#One{
+    order: 1;
+   /* flex-grow: 1; */
+   /* flex-grow: 1; */
+
+   flex-shrink: 3;
+
+   
+
+
+}
+
+#Two{
+    order: 3;
+   /* flex-grow: 1; */
+   /* flex-grow: 3; */
+   flex-shrink:1;
+
+
+}
+
+#Three{
+   order: 2;
+   /* flex-grow: 1; */
+   /* flex-grow: 1;*/
+
+}
+
+
+
+/*    Flex Bases  */
+
+
+#One{
+    flex-basis: 2;
+
+}
+
+#Two{
+
+}
+
+#Three{
+
+
+}

@@ -1,0 +1,36 @@
+
+.hello{
+
+    background-color: red;
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+
+
+    /* justify-content: space-around; */
+    justify-content:space-between;
+    
+    height: 400px;
+    /* align-items: stretch;  Defolt */
+
+    /* align-items:center; */
+    /* align-items:flex-start; */
+
+
+    align-items:flex-end;
+
+}
+
+
+
+.hello1{
+    background-color: greenyellow;
+    margin: 20px;
+    padding: 20px;
+
+    width: 100px;
+    text-align: center;
+  
+}

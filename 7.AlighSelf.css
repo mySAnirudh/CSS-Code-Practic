@@ -1,0 +1,31 @@
+.hello{
+    background-color: red;
+    display: flex;
+    height: 400px;
+
+}
+
+.hello1{
+
+    background-color: yellow;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+
+}
+
+#One{
+
+     align-self: flex-start;
+}
+
+#Two{
+align-self: center;
+
+}
+
+#Three{
+align-self:end;
+
+}

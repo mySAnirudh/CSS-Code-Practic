@@ -1,0 +1,25 @@
+
+.div{
+    background-color: indianred;
+    padding: 20px;
+    display: grid;
+    /* display: inline-grid; */
+    /* grid-template-columns: 200px 400px ; */
+
+    /* grid-template-columns: 200px 400px auto; */
+
+    /* grid-template-columns: auto 50% auto ; */
+
+    grid-template-columns: auto 50% auto 50px  ;
+
+  
+}
+
+.hel{
+
+    background-color: wheat;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}

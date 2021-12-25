@@ -1,0 +1,45 @@
+
+ /* Combination Selector :- */
+
+ /* Adjustant Sibling  */
+/* 
+  div a{
+      color: red;
+  } */
+
+
+  /* Direct Chield  */
+
+  /* div>a {
+      color: red;
+  } */
+
+
+
+    /* Just Sibling  */
+/* Fater the sibling  */
+    /* div+ a{
+        color: red;
+
+    } */
+
+
+    
+    /* Normal Sibling */
+
+    /* div ~ a {
+        color: green;
+    } */
+
+
+
+    /* And Selector  */
+
+
+    /* It's use to select multiple selector at a time */
+
+
+
+    h1,p{
+        color: red;
+    }

@@ -1,0 +1,61 @@
+/* .hello{
+    background-color: red;
+}
+
+.hello1{
+    background-color: greenyellow;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+
+} */
+/* 
+
+.hello{
+    background-color: red;
+    display:flex;
+    /* flex-direction: row; */
+
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    
+    /* flex-direction: column-reverse; */
+    /* flex-direction: column; */ 
+
+/* 
+}
+
+.hello1{
+    background-color: greenyellow;
+    margin: 20px;
+    padding: 20px;
+
+    width: 100px;
+  
+} */
+
+
+
+
+.hello{
+    background-color: red;
+    /* display:flex ; */
+    /* flex-wrap: nowrap; */
+   /* flex-wrap: wrap; */
+   /* flex-wrap: wrap-reverse; */
+
+
+  /* Inshort  */
+
+  flex-flow: row wrap;
+}
+
+.hello1{
+    background-color: greenyellow;
+    margin: 20px;
+    padding: 20px;
+
+    width: 100px;
+    text-align: center;
+  
+}

@@ -1,0 +1,59 @@
+/* Element Selector */
+/* 
+li{
+    color: red;
+} */
+
+
+
+/* Id Selector */
+
+/* 
+#list2{
+      color: blue;
+  } */
+
+
+  /* Class Selector */
+
+  /* .list5{
+      color: green;
+  } */
+
+
+  /* Pesudo Class  */
+  /* When we touch the link color id change  */
+/* 
+  a:hover{
+      color: red;
+  } */
+
+
+  /* Pesudo Element  */
+
+/* First Letter/ Line ...explor */
+   /* P::first-line{
+       color: red;
+   }
+      */
+
+
+      /* Attrubutes Selectors  */
+
+      /* a[href="https://wwww.google.com"]
+      {
+          color:red;
+      } */
+
+
+
+      /* Universal Selector  */
+
+      /* *{
+          color:red;
+      } */
+
+      *{
+          /* border: 1px solid red; */
+        /* color:red; */
+    }

@@ -1,0 +1,27 @@
+ Media Querries :-
+  It's use to different differernt widht of browser we can use different ways of website .
+
+  Online Utility Website .com :-
+
+  It's use fro check your website widht
+
+
+
+Images and video widht handle
+  img{
+      widht:100%;
+      height:auto;
+  }
+
+  video{
+      widht:100%;
+      height:auto;
+  }
+
+
+  //Some Popular Framework in CSS :-
+
+  Bootsharp :
+  Skeleton CSS:
+  Pure CSS:
+  Foundation CSS :

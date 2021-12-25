@@ -1,0 +1,72 @@
+       Selectors In CSS :-
+
+       1.Types of Selectors :-
+    
+    1.   H1{
+        colore:red;
+    }
+
+    2.ID Selectors:-
+
+    #idname{
+        color:red;
+    }
+
+    3.Class Selectors :-
+
+    .classname{
+       color:red;
+    }
+
+
+    4.Pesudo Class and Pesudo Element :-
+
+    Example :-
+Pesudo Class:-
+    a:hoaver{
+        color:red;
+    }
+
+Pesudo Element:-
+    p::first-line{
+        color:red;
+    }
+
+
+
+    5.Attribute Selectors:-
+    Example:-
+    a[href="https://Example.com"]{
+        color:red;
+    }
+
+
+    6.Universal Selector:-
+    Example:-  (*) It's use for all or testing purpose 
+    *{
+    color:red;
+    }
+
+
+    7. Combination Selector :-
+   Desendant Cambinatory (Chield at nny stage)
+
+   .red-p span{
+       color:green;
+   }
+
+   Adjacent Cambinatory(right after sibling)  (It's sellect all)
+
+   .red-p+ h1{
+       color:green;
+   }
+
+   General sibling Combination
+
+   Add Selector :-
+
+   General sibling Cambinatory (right after sibling)  (Add multiple Selector)
+
+     .red-p,h1{
+         color:red;
+     }

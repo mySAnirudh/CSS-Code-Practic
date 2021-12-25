@@ -1,0 +1,23 @@
+
+
+/* To make content center */
+.hello{
+    background-color: red;
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello1{
+    background-color: pink;
+    margin: 20px;
+    padding: 20px;
+
+    width: 100px;
+    text-align: center;
+  
+}

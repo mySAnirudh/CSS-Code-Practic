@@ -1,0 +1,54 @@
+#h1{
+    width: 70%;
+    float: left;
+    background-color: red;
+
+
+}
+
+#h2{
+    width: 30%;
+    float: left;
+    background-color: green;
+    
+}
+
+body{
+    font-size: 80px;
+}
+
+@media screen and (min-width: 768px) {
+
+
+    #h1{
+        width: 50%;
+
+    }
+    #h2{
+        width: 50%;
+    }
+
+}
+
+/* We can also apply multiple width  */
+
+
+@media screen and (min-width: 400px) {
+
+
+    #h1{
+        width: 100%;
+
+    }
+    #h2{
+        width: 100%;
+        color: yellow;
+        background-color: red;
+    }
+    /* We can also apply color inly here  */
+
+}
+
+
+
+
