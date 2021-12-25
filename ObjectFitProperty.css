@@ -1,0 +1,11 @@
+img{
+    border: 5px solid red;
+    height: 500px;
+    width: 400px;
+    object-fit: contain;  /*This is use for image aspect ratio is good */ 
+    /* object-fit: cover; */
+    /* object-fit:fill; */
+
+ object-position: top center;
+
+}

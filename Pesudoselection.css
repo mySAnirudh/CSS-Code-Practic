@@ -1,0 +1,26 @@
+p::first-letter{
+    font-size: 35px;
+    color: red;
+    }
+    
+    p::first-line{
+        font-size: 35px;
+        color: red;
+        }
+    
+    
+         h1::after{
+             content: url("rock\ logo.png");
+         }
+         
+         
+         h1::after{
+             content: "added after";
+         }
+
+         ::selection{
+             color: green;
+             background: yellow;
+         }
+
+         /* when you move the mouse on text  */

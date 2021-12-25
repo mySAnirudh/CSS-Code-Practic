@@ -1,0 +1,17 @@
+li:first-child{
+    color: red;
+}li:last-child{
+    color: red;
+}
+
+
+
+
+li:nth-child(odd){
+    color:blue;
+}
+
+
+li:nth-child(3n+0){
+    color:blue;
+}

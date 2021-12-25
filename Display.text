@@ -1,0 +1,42 @@
+
+  IMP :-
+
+  Every elemnt is a occupy display property 
+
+  1.Block
+  2.Inline
+  3.Inline-Block
+  4.None (It's not defolt)
+
+  1.Block
+    div
+    p
+    h1-h6
+
+    form
+
+
+    2.Inline
+   a 
+    image
+    spam
+
+
+Difference :-
+ 1.Block  :Always start with new line
+
+  2.Inline  :- It's takes full with
+      It's note takes full widht
+      It's takes necessary space 
+      You cannot apply height and widht
+
+
+
+  3.Inline-Block :- height and widht (we can apply both)
+
+
+    Display: none and Visibility :-
+
+    Non :- Reemove the text and place also 
+
+    Visibility :- NOthing is Visibility but space is cuuupied 
