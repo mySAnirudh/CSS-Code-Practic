@@ -1,0 +1,92 @@
+#hello{
+
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+    background-color: rebeccapurple;
+    transition-property:widht;
+    transition-duration: 1s;
+}
+
+#hello
+:hover {
+    width: 200px;
+
+
+}
+
+#sam{
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+    background-color:yellow;
+    transition-property:background-color;
+    transition-duration: 1s;
+
+}
+
+
+#sam
+:hover {
+    background-color:red;
+}
+
+
+
+/* For backgrouns and colour boht cange */
+
+#ram{
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    margin: 100px;
+    transition-property:widht , background-color;
+    transition-duration: 1s;
+}
+
+#ram:hover{
+    background-color: green;
+    width: 200px;
+
+}
+
+
+
+#ram2{
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    margin: 100px;
+    transition-property:widht , background-color;
+    transition-duration: 1s;
+    transition-delay: 500ms;
+}
+
+#ram2:hover{
+    /* background-color: green; */
+    width: 200px;
+
+}
+
+/* Transation timing fucction  */
+
+
+#ram3{
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    margin: 100px;
+    transition-property:widht , background-color;
+    transition-duration: 1s;
+    /* transition-timing-function: linear; */ 
+    /* transition-timing-function: ease-in-out; */
+
+    /* Fro Shortchut */ 
+    transition: width 2s , height 3s;
+}
+
+#ram3:hover{
+   height: 300px;
+    width: 200px;
+
+}

@@ -1,0 +1,33 @@
+#sam{
+ 
+    width: 50%;
+   padding: 20px;
+
+}
+
+#sam2{
+ width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block ;
+    position: relative;
+
+}
+#sam3{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left:-50px;
+}
+#sam4{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left :-100px;
+}

@@ -1,0 +1,19 @@
+#hell{
+    width: 70%;
+    background-color: green;
+    height: 200px;
+    float: left;
+
+}
+#oo{
+    width: 30%;
+    background-color: indianred;
+    height: 300px;
+    float: left;
+
+}
+#man{
+background-color: rgb(68, 57, 57);
+clear: both;
+
+}

@@ -1,0 +1,18 @@
+#cover{
+    border: 2px solid red ;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+
+}
+
+#content{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    /* transform: perspective(300px) rotate3d(50, 0 , 0 , 30deg); */
+
+    /* transform: perspective(300px) rotate3d(50, 30 , 40 , 30deg); */
+
+    transform: perspective(300px) rotate3d(40 , 0 , 0 , 30deg);
+}

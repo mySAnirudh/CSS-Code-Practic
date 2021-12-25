@@ -1,0 +1,116 @@
+@keyframes changecolor {
+
+    from{background-color: red;}
+
+    to{background-color: yellow;}
+}
+#hel{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+ animation-name: changecolor ;
+ animation-duration: 2s;
+
+}
+
+
+@keyframes changecolor {
+
+    0%{background-color: red;}
+
+    100%{background-color: yellow;}
+}
+#he2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+ animation-name: changecolor ;
+ animation-duration: 2s;
+
+}
+
+
+
+
+@keyframes changecolor {
+
+    
+    0%{background-color: red;}
+    25%{background-color: green;}
+    50%{background-color: yellow;}
+    75%{background-color: blue;}
+
+    
+}
+#he3{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+ animation-name: changecolor ;
+ animation-duration: 4s;
+
+}
+
+
+
+
+@keyframes changecolor {
+
+    
+    0%{background-color: red;}
+    25%{background-color: green;}
+    50%{background-color: yellow;}
+    75%{width:200px;}
+    100%{background-color: pink;}
+
+    
+}
+#he4{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+ animation-name: changecolor ;
+ animation-duration: 4s;
+ animation-delay: 2s;
+
+}
+
+
+
+@keyframes changecolor {
+
+    
+    0%{background-color: red;}
+    25%{width: 300px;}
+    50%{background-color: yellow;}
+    75%{width:400px;}
+    100%{background-color: pink;}
+
+#ani{
+
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+ animation-name: changecolor ;
+ animation-duration: 4s;
+ animation-delay: 2s;
+ animation-iteration-count: 4;
+}
+
+
+
+
+@keyframes changecolor {
+
+    
+    0%{background-color: red;}
+    25%{width: 300px;}
+    50%{background-color: yellow;}
+    75%{width:400px;}
+    100%{background-color: pink;}
+
+#animation{
+
+    background-color:red
+
+}

@@ -1,0 +1,12 @@
+
+  Position :- It's define the position of element in wabepage  .
+
+  1. Static   (defolt)
+  2. Realative
+  3. Fixed
+  4. Absolute
+
+  1.Top
+  2.Bottom
+  3.Left
+  4.Right

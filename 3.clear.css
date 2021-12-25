@@ -1,0 +1,15 @@
+p{
+    border: 1px solid red;
+    overflow: auto;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    float: right;
+}
+
+
+#ima{
+    float: left;
+}

@@ -1,0 +1,14 @@
+ul{
+    background-color: green;
+    /* list-style-type: none; */
+    list-style: none;
+    /* color: white; */
+    /* border: 2px solid red; */
+    overflow: auto;
+}
+li{
+    color:wheat;
+    padding: 5px 10px;
+    float: left;
+
+}
