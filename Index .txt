@@ -1,9 +1,18 @@
-Building Color Codes
-You can build millions of color codes using our Color Code Builder. Check 
-our HTML Color Code Builder. To use this tool, you would need a Java Enabled 
-Browser.
-Browser Safe Colors
-Here is the list of 216 colors, which are supposed to be most safe and computer 
-independent colors. These colors vary from hexa code 000000 to FFFFFF. These 
-colors are safe to use because they ensure that all computers would display the 
-colors correctly when running a 256 color palette:
+
+
+    *** POSITION ***
+
+    CSS helps you to position your HTML element. You can put any HTML element at 
+whatever location you like. You can specify whether you want the element 
+positioned relative to its natural position in the page or absolute based on its 
+parent element.
+Now, we will see all the CSS positioning related properties with examples.
+Relative Positioning
+Relative positioning changes the position of the HTML element relative to where 
+it normally appears. So "left:20" adds 20 pixels to the element's LEFT position.
+You can use two values top and left along with the position property to move an 
+HTML element anywhere in an HTML document. 
+ Move Left - Use a negative value for left.
+ Move Right - Use a positive value for left.
+ Move Up - Use a negative value for top.
+ Move Down - Use a positive value for top.
