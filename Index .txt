@@ -1,0 +1,9 @@
+Building Color Codes
+You can build millions of color codes using our Color Code Builder. Check 
+our HTML Color Code Builder. To use this tool, you would need a Java Enabled 
+Browser.
+Browser Safe Colors
+Here is the list of 216 colors, which are supposed to be most safe and computer 
+independent colors. These colors vary from hexa code 000000 to FFFFFF. These 
+colors are safe to use because they ensure that all computers would display the 
+colors correctly when running a 256 color palette:
