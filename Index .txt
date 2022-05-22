@@ -1,13 +1,25 @@
 
- 
+    **** FILTERS ****
 
-      *** Border ***
-
-      The border properties allow you to specify how the border of the box 
-representing an element should look. There are three properties of a border you 
-can change:
- The border-color specifies the color of a border.
- The border-style specifies whether a border should be solid, dashed line, 
-double line, or one of the other possible values.
- The border-width specifies the width of a border.
-Now, we will see how to use these properties with examples.
+    You can use CSS filters to add special effects to text, images and other aspects 
+of a webpage without using images or other graphics. Filters only work on 
+Internet Explorer 4.0. If you are developing your site for multiple browsers,
+then it may not be a good idea to use CSS filters because there is a possibility 
+that it would not give any advantage.
+In this chapter, we will see the details of each CSS filter. These filters may not 
+work in your browser.
+Alpha Channel
+The Alpha Channel filter alters the opacity of the object, which makes it blend 
+into the background. The following parameters can be used in this filter:
+Parameter Description
+opacity Level of the opacity. 0 is fully transparent, 100 is fully opaque.
+finishopacity Level of the opacity at the other end of the object.
+Style The shape of the opacity gradient.
+0 = uniform
+1 = linear
+2 = radial
+3 = rectangular
+startX X coordinate for opacity gradient to begin.
+startY Y coordinate for opacity gradient to begin.
+finishX X coordinate for opacity gradient to end.
+finishY Y coordinate for opacity gradient to end.
