@@ -1,0 +1,8 @@
+h1{
+  border: 1px solid green;
+  width: 500px;
+  background-color: yellow;
+  margin: 100px;
+  padding: 20px;
+  box-shadow: 20px 20px 20px 20px gray , -20px -20px 20px 20px red;
+}
