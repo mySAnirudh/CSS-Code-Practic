@@ -1,16 +1,13 @@
 
+ 
 
-    *** OUTLINE ***
+      *** Border ***
 
- Outlines are very similar to borders, but there are few major differences as well: 
- An outline does not take up space.
- Outlines do not have to be rectangular.
- Outline is always the same on all sides; you cannot specify different 
-values for different sides of an element.
-NOTE: The outline properties are not supported by IE 6 or Netscape 7.
-You can set the following outline properties using CSS.
- The outline-width property is used to set the width of the outline.
- The outline-style property is used to set the line style for the outline.
- The outline-color property is used to set the color of the outline.
- The outline property is used to set all the above three properties in a 
-single statement.
+      The border properties allow you to specify how the border of the box 
+representing an element should look. There are three properties of a border you 
+can change:
+ The border-color specifies the color of a border.
+ The border-style specifies whether a border should be solid, dashed line, 
+double line, or one of the other possible values.
+ The border-width specifies the width of a border.
+Now, we will see how to use these properties with examples.
