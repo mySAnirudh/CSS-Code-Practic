@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css">
+        p {margin: 15px}
+        all four margins will be 15px
+        p {margin: 10px 2%}
+        top and bottom margin will be 10px, left and right margin will be 2% of 
+        the total width of the document.
+
+        p {margin: 10px 2% -10px}
+top margin will be 10px, left and right margin will be 2% of the total 
+width of the document, bottom margin will be -10px 
+p {margin: 10px 2% -10px auto}
+top margin will be 10px, right margin will be 2% of the total width of 
+the document, bottom margin will be -10px, left margin will be set by
+the browser 
+</style> 
+</head>
+<body>
+    <p style="margin: 15px; border:1px solid black;">
+all four margins will be 15px 
+</p>
+<p style="margin:10px 2%; border:1px solid black;">
+top and bottom margin will be 10px, left and right margin will be 2% of 
+the total width of the document. 
+</p>
+<p style="margin: 10px 2% -10px; border:1px solid black;">
+top margin will be 10px, left and right margin will be 2% of the total 
+width of the document, bottom margin will be -10px
+</p>
+<p style="margin: 10px 2% -10px auto; border:1px solid black;">
+top margin will be 10px, right margin will be 2% of the total width of 
+the document, bottom margin will be -10px, left margin will be set by 
+the browser 
+</p>
+
+</body>
+</html>

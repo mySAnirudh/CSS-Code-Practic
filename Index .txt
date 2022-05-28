@@ -1,32 +1,18 @@
 
 
+   ***** Margin *****
 
-
-     **** @ RULE ****
-
-     This chapter will cover the following important @ rules:
- The @import: rule imports another style sheet into the current style 
-sheet.
- The @charset rule indicates the character set the style sheet uses.
- The @font-face rule is used to exhaustively describe a font face for use in 
-a document.
- The !important rule indicates that a user-defined rule should take 
-precedence over the author's style sheets.
-NOTE: There are other @ rules which we will cover in subsequent chapters.
-The @import Rule
-The @import rule allows you to import styles from another style sheet. It should 
-appear right at the start of the style sheet before any of the rules, and its value 
-is a URL.
-It can be written in one of the two following ways:
-<style tyle="text/css">
-<!--
-@import "mystyle.css";
-or
-@import url("mystyle.css");
-.......other CSS rules .....
--->
-</style>
-The significance of the @import rule is that it allows you to develop your style 
-sheets with a modular approach. You can create various style sheets and then 
-include them wherever you need them.
-
+  The margin property defines the space around an HTML element. It is possible to 
+use negative values to overlap content.
+The values of the margin property are not inherited by the child elements. 
+Remember that the adjacent vertical margins (top and bottom margins) will 
+collapse into each other so that the distance between the blocks is not the sum 
+of the margins, but only the greater of the two margins or the same size as one 
+margin if both are equal.
+We have the following properties to set an element margin.
+ The margin specifies a shorthand property for setting the margin 
+properties in one declaration.
+ The margin-bottom specifies the bottom margin of an element.
+ The margin-top specifies the top margin of an element.
+ The margin-left specifies the left margin of an element.
+ The margin-right specifies the right margin of an element.
