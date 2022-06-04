@@ -1,18 +1,22 @@
 
 
-   ***** Margin *****
-
-  The margin property defines the space around an HTML element. It is possible to 
-use negative values to overlap content.
-The values of the margin property are not inherited by the child elements. 
-Remember that the adjacent vertical margins (top and bottom margins) will 
-collapse into each other so that the distance between the blocks is not the sum 
-of the margins, but only the greater of the two margins or the same size as one 
-margin if both are equal.
-We have the following properties to set an element margin.
- The margin specifies a shorthand property for setting the margin 
-properties in one declaration.
- The margin-bottom specifies the bottom margin of an element.
- The margin-top specifies the top margin of an element.
- The margin-left specifies the left margin of an element.
- The margin-right specifies the right margin of an element.
+   *** PSEUDO CLASS ***
+   CSS pseudo-classes are used to add special effects to some selectors. You do 
+not need to use JavaScript or any other script to use those effects. A simple 
+syntax of pseudo-classes is as follows:
+selector:pseudo-class {property: value}
+CSS classes can also be used with pseudo-classes:
+selector.class:pseudo-class {property: value}
+The most commonly used pseudo-classes are as follows:
+Value Description
+:link Use this class to add special style to an unvisited link.
+:visited Use this class to add special style to a visited link.
+:hover Use this class to add special style to an element when you mouse 
+over it.
+:active Use this class to add special style to an active element.
+:focus Use this class to add special style to an element while the element 
+has focus.
+:firstchild
+Use this class to add special style to an element that is the first 
+child of some other element.
+:lang Use this class to specify a language to use in a specified element.
