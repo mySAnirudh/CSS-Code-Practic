@@ -1,22 +1,17 @@
 
+   **** PSEUDO ELEMENT ****
 
-   *** PSEUDO CLASS ***
-   CSS pseudo-classes are used to add special effects to some selectors. You do 
+   CSS pseudo-elements are used to add special effects to some selectors. You do 
 not need to use JavaScript or any other script to use those effects. A simple 
-syntax of pseudo-classes is as follows:
-selector:pseudo-class {property: value}
-CSS classes can also be used with pseudo-classes:
-selector.class:pseudo-class {property: value}
-The most commonly used pseudo-classes are as follows:
+syntax of pseudo-element is as follows:
+selector:pseudo-element {property: value}
+CSS classes can also be used with the pseudo-elements:
+selector.class:pseudo-element {property: value}
+The most commonly used pseudo-elements are as follows:
 Value Description
-:link Use this class to add special style to an unvisited link.
-:visited Use this class to add special style to a visited link.
-:hover Use this class to add special style to an element when you mouse 
-over it.
-:active Use this class to add special style to an active element.
-:focus Use this class to add special style to an element while the element 
-has focus.
-:firstchild
-Use this class to add special style to an element that is the first 
-child of some other element.
-:lang Use this class to specify a language to use in a specified element.
+:first-line Use this element to add special styles to the first line of the text 
+in a selector.
+:first-letter Use this element to add special style to the first letter of the text 
+in a selector.
+:before Use this element to insert some content before an element.
+:after Use this element to insert some content after an element.
