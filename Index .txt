@@ -1,17 +1,9 @@
-
-   **** PSEUDO ELEMENT ****
-
-   CSS pseudo-elements are used to add special effects to some selectors. You do 
-not need to use JavaScript or any other script to use those effects. A simple 
-syntax of pseudo-element is as follows:
-selector:pseudo-element {property: value}
-CSS classes can also be used with the pseudo-elements:
-selector.class:pseudo-element {property: value}
-The most commonly used pseudo-elements are as follows:
-Value Description
-:first-line Use this element to add special styles to the first line of the text 
-in a selector.
-:first-letter Use this element to add special style to the first letter of the text 
-in a selector.
-:before Use this element to insert some content before an element.
-:after Use this element to insert some content after an element.
+Building Color Codes
+You can build millions of color codes using our Color Code Builder. Check 
+our HTML Color Code Builder. To use this tool, you would need a Java Enabled 
+Browser.
+Browser Safe Colors
+Here is the list of 216 colors, which are supposed to be most safe and computer 
+independent colors. These colors vary from hexa code 000000 to FFFFFF. These 
+colors are safe to use because they ensure that all computers would display the 
+colors correctly when running a 256 color palette:
