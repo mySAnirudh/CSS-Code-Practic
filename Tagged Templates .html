@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function myTagFn(literals,...values){
+        console.log("literal values are");
+        for(let c of literals){
+        console.log(c)
+        }
+        console.log("variable values are ");
+        for(let c of values){
+        console.log(c)
+        }
+        return "Done"
+        }
+        let company = `TutorialsPoint`
+        let company_location = `Mumbai`
+        let result = myTagFn `Hello this is ${company} from 
+${company_location}`
+ console.log(result)
+ 
+ </script>
+</body>
+</html>
