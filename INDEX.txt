@@ -1,15 +1,42 @@
 
+  
+     ***** VOID KEYBOARD *****
 
-     **** NEW STRING METHOD ****
+     >> The void keyword is used as the return type of functions that do not
+      return any value. It evaluates the given expression and returns undefined.
+       It is an important JavaScript keyword that might be used as a unary
+        operator and appears before the single operand of any type.
+      It specifies an expression to evaluate without returning any value.
 
-   Following is a list of methods with their description.
-startsWith
-The method determines if a string starts with the specified character.
-Syntax
-str.startsWith(searchString[, position])
-Parameters
- searchString: The characters to be searched for at the start of this string.
- Position: The position in this string at which to begin searching for searchString; 
-defaults to 0
-Return Value
-true if the string begins with the characters of the search string; otherwise, false.
+
+
+      void is an important keyword in JavaScript which can be used as a unary operator that 
+appears before its single operand, which may be of any type. This operator specifies an 
+expression to be evaluated without returning a value. The operator evaluates a given 
+expression and then returns undefined.
+Following is the syntax for the same.
+void expression
+Void and Immediately InvokedFunction Expressions
+When using an immediately-invoked function expression, void can be used to force the 
+function keyword to be treated as an expression instead of a declaration. Consider the 
+following example:
+void function iife_void()
+{
+ var msg = function () {console.log("hello world")};
+ msg();
+}();
+The following output is displayed on successful execution of the above code.
+hello world
+Void and JavaScriptURIs
+The JavaScript: URI is a commonly encountered syntax in a HTML page. The browser 
+evaluates the URI and replaces the content of the page with the value returned. This is 
+true unless the value returned is undefined. The most common use of this operator is in a 
+client-side JavaScript: URL, where it allows you to evaluate an expression for its sideeffects without the browser displaying the value of the evaluated expression.
+Consider the following code snippet:
+<a href="javascript:void(javascript:alert('hello world!!'))">
+ Click here to do nothing
+</a>
+<br/><br/><br/>
+<a href="javascript:alert('hello');">
+ Click here for an alert
+ 
