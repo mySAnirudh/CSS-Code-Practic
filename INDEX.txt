@@ -1,126 +1,21 @@
 
-       **** REG EXP *****
 
+ **** MATH ****
 
-    A regular expression is an object that describes a pattern of characters. Regular 
-expressions are often abbreviated “regex” or “regexp”.
-The JavaScript RegExp class represents regular expressions, and both String and RegExp 
-define methods that use regular expressions to perform powerful pattern-matching and 
-search-and-replace functions on the text.
-A regular expression can be defined as: 
-var pattern = new RegExp(pattern, attributes);
-OR
-var pattern = /pattern/attributes;
-The attribute can have any combination of the following values.
-Attribute Description
-G Global match
-I Ignore case
-M
-Multiline; treat the beginning and end characters (^ and $) as working 
-over multiple lines (i.e., match the beginning or the end of each line 
-(delimited by \n or \r), not only the very beginning or end of the whole 
-input string)
-U Unicode; treat the pattern as a sequence of unicode code points
-Y
-Sticky; matches only from the index indicated by the lastIndex property 
-of this regular expression in the target string (and does not attempt to 
-match from any later indexes)
-ConstructingRegular Expressions
-Brackets
-Brackets ([]) have a special meaning when used in the context of regular expressions. 
-They are used to find a range of characters.
-Expression Description
-[...] Any one character between the brackets
-[^...] Any one character not between the brackets
-[0-9] It matches any decimal digit from 0 through 9
-[a-z] It matches any character from lowercase a through lowercase z
-[A-Z] It matches any character from uppercase A through uppercase Z
-[a-Z] It matches any character from lowercase a through uppercase Z
-The ranges shown above are general; you could also use the range [0-3] to match any 
-decimal digit ranging from 0 through 3, or the range [b-v] to match any lowercase 
-character ranging from b through v.
-Quantifiers
-The frequency or position of the bracketed character sequences and the single characters 
-can be denoted by a special character. Each special character has a specific connotation. 
-The +, *, ?, and $ flags all follow a character sequence.
-Expression Description
-p+ It matches any string containing at least one p
-p* It matches any string containing zero or more p's
-p? It matches any string containing one or more p's
-p{N} It matches any string containing a sequence of N p's
-p{2,3} It matches any string containing a sequence of two or three p's
-p{2, } It matches any string containing a sequence of at least two p's
-p$ It matches any string with p at the end of it
-^p It matches any string with p at the beginning of it
-[^a-zA-Z] It matches any string not containing any of the characters ranging from 
-a through z and A through Z
-p.p
-It matches any string containing p, followed by any character, in turn 
-followed by another p
-^.{2}$ It matches any string containing exactly two characters
-<b>(.*)</b
->
-It matches any string enclosed within <b> and </b>
-p(hp)* It matches any string containing a p followed by zero or more instances 
-of the sequence hp
-Literal Characters
-Character Description
-Alphanumeric Itself
-\0 The NULL character (\u0000)
-\t Tab (\u0009)
-\n Newline (\u000A)
-\v Vertical tab (\u000B)
-\f Form feed (\u000C)
-\r Carriage return (\u000D)
-\xnn
-The Latin character specified by the hexadecimal number nn; for 
-example, \x0A is the same as \n
-\uxxxx
-The Unicode character specified by the hexadecimal number xxxx; 
-for example, \u0009 is the same as \t
-\cX The control character ^X; for example, \cJ is equivalent to the newline 
-character \n
-Meta-characters
-A meta-character is simply an alphabetical character preceded by a backslash that acts 
-to give the combination a special meaning. 
-For instance, you can search for a large sum of money using the '\d' meta-character: 
-/([\d]+)000/. Here, \d will search for any string of the numerical character. 
-The following table lists a set of meta-characters which can be used in PERL Style Regular 
-Expressions.
-Character Description
-. A single character
-\s A whitespace character (space, tab, newline)
-\S Non-whitespace character
-\d A digit (0-9)
-\D A non-digit
-\w A word character (a-z, A-Z, 0-9, _)
-\W A non-word character
-[\b] A literal backspace (special case)
-[aeiou] Matches a single character in the given set
-[^aeiou] Matches a single character outside the given set
-(foo|bar|baz) Matches any of the alternatives specified
-RegExp Properties
-Properties Description
-RegExp.prototype.flags A string that contains the flags of 
-the RegExp object
-RegExp.prototype.global
-Whether to test the regular expression against all 
-possible matches in a string, or only against the 
-first
-RegExp.prototype.ignoreCase Whether to ignore case while attempting a match 
-in a string
-RegExp.prototype.multiline Whether or not to search in strings across multiple 
-lines
-RegExp.prototype.source The text of the pattern
-RegExp.prototype.sticky Whether or not the search is sticky
-RegExp Constructor
-It returns a reference to the array function that created the instance's prototype.
-Syntax
-RegExp.constructor
-Return Value
-Returns the function that created this object's instance.
-Example
-var re = new RegExp( "string" );
-console.log("re.constructor is:" + re.constructor);
-Output
-re.constructor is:function RegExp() { [native code] }
+ The math object provides you properties and methods for mathematical constants and 
+functions. Unlike other global objects, Math is not a constructor. All the properties and 
+methods of Math are static and can be called by using Math as an object without creating 
+it.
+Math Properties
+Following is a list of all Math properties and its description.
+Property Description
+E Euler's constant and the base of natural logarithms, approximately 2.718
+LN2 Natural logarithm of 2, approximately 0.693
+LN10 Natural logarithm of 10, approximately 2.302
+LOG2E Base 2 logarithm of E, approximately 1.442
+LOG10E Base 10 logarithm of E, approximately 0.434
+PI Ratio of the circumference of a circle to its diameter, approximately 
+3.14159
+SQRT1_2 Square root of 1/2; equivalently, 1 over the square root of 2, 
+approximately 0.707
+SQRT2 Square root of 2, approximately 1.414
