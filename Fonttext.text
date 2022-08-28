@@ -1,0 +1,16 @@
+Only main two types oif fonts supported in browser 
+
+TTF
+WOFF
+
+If fonts not get firat then it's get secod fonts by follback fonts
+
+Add ultiple font's  and if not get 1st then get apply 2nd fonts
+
+
+Shorthand Fonts Use :-
+Style Italic
+Varient Small Caps
+Fonts Waight 800
+Size 30px 
+Font Name :Samrat
