@@ -1,0 +1,24 @@
+#color-box
+{
+    background-color: green;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    opacity: 0.3;;
+}
+/* 
+ img{
+     opacity: .5;
+     height: 20%;
+     width: 40%;
+ } */
+
+ img{
+     width: 940px;
+     height: 900px;
+ }
+ img:hover{
+     opacity: .4;
+     width: 20%;
+     height: 20%;
+ }
