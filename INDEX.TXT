@@ -1,4 +1,15 @@
 
 
-The font tag is having three attributes called 
-size, color, and face to customize your fonts.
+    *** FORMS ***
+
+    HTML Form Controls
+There are different types of form controls that you can use to collect data using HTML 
+form:
+ Text Input Controls
+ Checkboxes Controls
+ Radio Box Controls
+ Select Box Controls
+ File Select boxes
+ Hidden Controls
+ Clickable Buttons
+ Submit and Reset Button
