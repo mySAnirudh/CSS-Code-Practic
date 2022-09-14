@@ -1,0 +1,4 @@
+
+
+The font tag is having three attributes called 
+size, color, and face to customize your fonts.
