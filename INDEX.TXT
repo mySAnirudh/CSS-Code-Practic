@@ -1,15 +1,30 @@
-
-
-    *** FORMS ***
-
-    HTML Form Controls
-There are different types of form controls that you can use to collect data using HTML 
-form:
- Text Input Controls
- Checkboxes Controls
- Radio Box Controls
- Select Box Controls
- File Select boxes
- Hidden Controls
- Clickable Buttons
- Submit and Reset Button
+URL encoding is the practice of translating unprintable characters or characters with special 
+meaning within URLs to a representation that is unambiguous and universally accepted by 
+web browsers and servers. These characters include:
+ ASCII control characters: Unprintable characters typically used for output 
+control. Character ranges 00-1F hex (0-31 decimal) and 7F (127 decimal). A 
+complete encoding table is given below.
+ Non-ASCII control characters: These are characters beyond the ASCII character 
+set of 128 characters. This range is part of the ISO-Latin character set and includes 
+the entire "top half" of the ISO-Latin set 80-FF hex (128-255 decimal). A complete 
+encoding table is given below.
+ Reserved characters: These are special characters such as the dollar sign, 
+ampersand, plus, common, forward slash, colon, semi-colon, equals sign, question 
+mark, and "at" symbol. All of these can have different meanings inside a URL so 
+need to be encoded. A complete encoding table is given below.
+ Unsafe characters: These are space, quotation marks, less than symbol, greater 
+than symbol, pound character, percent character, Left Curly Brace, Right Curly 
+Brace, Pipe, Backslash, Caret, Tilde, Left Square Bracket, Right Square Bracket, 
+Grave Accent. These character present the possibility of being misunderstood 
+within URLs for various reasons. These characters should also always be encoded. 
+A complete encoding table is given below.
+The encoding notation replaces the desired character with three characters: a percent sign 
+and two hexadecimal digits that correspond to the position of the character in the ASCII 
+character set.
+Example
+One of the most common special characters is a white space. You can't type a space in a 
+URL directly. A space position in the character set is 20 hexadecimals. So you can use 
+%20 in place of a space when passing your request to the server.
+http://www.example.com/new%20pricing.htm
+This URL actually retrieves a document named "new pricing.htm" from the 
+www.example.com
