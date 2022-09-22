@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+ <script type="text/javascript">
+ 
+document.getElementsByTagName("eventsource")[0].addEventListener("server-time",
+eventHandler, false);
+ function eventHandler(event)
+ {
+ // Alert time sent by the server
+ document.querySelector('#ticker').innerHTML = event.data;
+ }
+ </script>
+ </head>
+ <body>
+ <div id="sse">
+ <eventsource src="/cgi-bin/ticker.cgi" />
+ </div>
+ <div id="ticker" name="ticker">
+ [TIME]
+ </div>
+ </body>
+</html>
