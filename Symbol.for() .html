@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const userId = Symbol.for('userId') // creates a new Symbol in registry
+        const user_Id = Symbol.for('userId') // reuses already created Symbol
+        console.log(userId == user_Id)
+        const studentId = Symbol("studentID") // creates symbol but not in 
+
+ const student_Id = Symbol.for("studentID")// creates a new Symbol in 
+
+ console.log(studentId == student_Id)
+ </script>
+</body>
+</html>

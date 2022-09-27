@@ -1,30 +1,31 @@
+ 
 
+      **** SYMBOL ****
 
-    ***** OBJECTS *****
-
-    ES6 - Objects. JavaScript supports extending data types. JavaScript 
-    objects are a great way to define custom data types. An object is an 
-    instance which contains a set of key value pairs. Unlike primitive data
-     types, objects can represent multiple or complex values and can change
-      over their life time.
-
-
-    **** JavaScript ES6 Objects
-
-Creating Objects. Constructor functions optionally accept parameters. ...
-Accessing Object Properties
-Changing Object Properties
-Adding Object Properties
-Deleting Object Properties
-Comparing Objects. In JavaScript, each object you create points to a different memory address.
-Cloning Objects
-ES6 Shortcuts
-Conclusion
-
-
-JavaScript supports extending data types. JavaScript objects are a great way to define 
-custom data types.
-An object is an instance which contains a set of key value pairs. Unlike primitive data 
-types, objects can represent multiple or complex values and can change over their life 
-time. The values can be scalar values or functions or even array of other objects.
-The syntactic variations for defining an object is discussed further.
+      Introduction to Symbol
+ES6 introduces a new primitive type called Symbol. They are helpful to implement 
+metaprogramming in JavaScript programs.
+Syntax
+const mySymbol = Symbol()
+const mySymbol = Symbol(stringDescription)
+A symbol is just a piece of memory in which you can store some data. Each symbol will 
+point to a different memory location. Values returned by a Symbol() constructor are 
+unique and immutable.
+Example
+Let us understand this through an example. Initially, we created two symbols without 
+description followed by symbols with same description. In both the cases the equality 
+operator will return false when the symbols are compared.
+<script>
+ const s1 = Symbol();
+ const s2 = Symbol();
+ console.log(typeof s1)
+ console.log(s1===s2)
+ const s3 = Symbol("hello");//description
+ const s4 = Symbol("hello");
+ console.log(s3)
+ console.log(s4)
+ console.log(s3==s4)
+</script>
+The output of the above code will be as mentioned below: 
+symbol
+false

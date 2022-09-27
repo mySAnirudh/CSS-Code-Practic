@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const user_Id = Symbol.for('userId') // creates a new Symbol in registry
+        console.log(Symbol.keyFor(user_Id)) // returns the key of a symbol in 
+     
+        const userId = Symbol("userId")// symbol not in registry
+        console.log(Symbol.keyFor(userId)) //userId symbol is not in registry
+        </script>
+       
+</body>
+</html>
