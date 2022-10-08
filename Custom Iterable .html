@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ 
+        //user defined iterable
+        class CustomerList {
+        constructor(customers){
+        //adding customer objects to an array
+        this.customers = [].concat(customers)
+    }
+ //implement iterator function
+ [Symbol.iterator](){
+ let count=0;
+ let customers = this.customers
+ return {
+ next:function(){
+ //retrieving a customer object from the array
+ let customerVal = customers[count];
+ count+=1;
+ if(count<=customers.length){
+ return {
+ value:customerVal,
+done:false
+ }
+ }
+ //return true if all customer objects are iterated
+ return {done:true}
+ }
+ }
+ }
+ }
+ //create customer objects
+ let c1={
+ firstName:'Sachin',
+ lastName:'Tendulkar'
+ }
+ let c2={
+ firstName:'Rahul',
+ lastName:'Dravid'
+ }
+ //define a customer array and initialize it
+ let customers=[c1,c2]
+ //pass customers to the class' constructor
+ let customersObj = new CustomerList(customers);
+ //iterating using for..of
+ for(let c of customersObj){
+ console.log(c)
+ }
+ //iterating using the next() method
+ let iter = customersObj[Symbol.iterator]();
+ console.log(iter.next())
+ console.log(iter.next())
+ console.log(iter.next())
+ </script>       
+</body>
+</html>

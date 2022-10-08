@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ 
+   <script>
+ //define generator function
+ function * getMarks(){
+ console.log("Step 1")
+ yield 10
+ console.log("Step 2")
+ yield 20
+ console.log("Step 3")
+ yield 30
+ console.log("End of function")
+ }
+ //return an iterator object
+ let markIter = getMarks()
+ //invoke statements until first yield
+ console.log(markIter.next())
+ //resume execution after the last yield until second yield expression
+ console.log(markIter.next())
+ //resume execution after last yield until third yield expression 
+ console.log(markIter.next())
+ console.log(markIter.next()) // iteration is completed;no value is 
+returned
+</script>
+
+</body>
+</html>
