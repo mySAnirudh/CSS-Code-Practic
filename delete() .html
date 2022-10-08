@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var set = new Set();
+set.add(10);
+set.add(20);
+set.add(30);
+console.log(`Size of Set before delete() :${set.size}`);
+console.log(`Set has 10 before delete() :${set.has(10)}`);
+set.delete(10)
+console.log(`Size of Set after delete() :${set.size}`);
+console.log(`Set has 10 after delete() :${set.has(10)}`);
+    </script>
+</body>
+</html>
