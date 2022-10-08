@@ -1,5 +1,56 @@
 
 
-    ***** ITERATOR *****
+        ******  COLLECTION *****
 
-  
+
+
+        ES6 introduces two new data structures: Maps and Sets.
+ Maps: This data structure enables mapping a key to a value.
+ Sets: Sets are similar to arrays. However, sets do not encourage duplicates.
+Maps
+The Map object is a simple key/value pair. Keys and values in a map may be primitive or 
+objects.
+Following is the syntax for the same.
+new Map([iterable])
+The parameter iterable represents any iterable object whose elements comprise of a 
+key/value pair. Maps are ordered, i.e. they traverse the elements in the order of their 
+insertion.
+Map Properties
+Property Description
+Map.prototype.size This property returns the number of key/value pairs in 
+the Map object.
+Syntax
+Map.size
+
+    **** Iterator
+Iterator is an object which allows to access a collection of objects one at a time. Both set 
+and map have methods which returns an iterator.
+Iterators are objects with next() method. When next() method is invoked, it returns an 
+object with 'value' and 'done' properties . 'done' is boolean, this will return true after 
+reading all items in the collection.
+Example 1: Set and Iterator
+var set = new Set(['a','b','c','d','e']); 
+var iterator =set.entries();
+console.log(iterator.next());
+The following output is displayed on successful execution of the above code.
+{ value: [ 'a', 'a' ], done: false }
+Iterator
+Iterator is an object which allows to access a collection of objects one at a time. Both set 
+and map have methods which returns an iterator.
+Iterators are objects with next() method. When next() method is invoked, it returns an 
+object with 'value' and 'done' properties . 'done' is boolean, this will return true after 
+reading all items in the collection.
+Example 1: Set and Iterator
+var set = new Set(['a','b','c','d','e']); 
+var iterator =set.entries();
+console.log(iterator.next());
+The following output is displayed on successful execution of the above code.
+{ value: [ 'a', 'a' ], done: false }
+var map = new Map([[1,'one'],[2,'two'],[3,'three']]);
+var iterator = map.keys();
+console.log(iterator.next());
+The following output is displayed on successful execution of the above code.
+{value: 1, done: false}
+
+
+    
