@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //constructor function
+        function Student(rollno,firstName,lastName) {
+        this.rollno = rollno;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.fullNameUsingAnonymous = function(){
+        setTimeout(function(){
+        //creates a new instance of this ,hides outer scope of 
+       this
+        console.log(this.firstName+ " "+this.lastName)
+        },2000)
+        }
+        this.fullNameUsingArrow = function(){
+        setTimeout(()=>{
+//uses this instance of outer scope
+console.log(this.firstName+ " "+this.lastName)
+ },3000)
+ }
+ }
+ const s1 = new Student(101,'Mohammad','Mohtashim')
+ s1.fullNameUsingAnonymous();
+ s1.fullNameUsingArrow();
+ </script>
+        
+</body>
+</html>
