@@ -1,44 +1,23 @@
 
+   
+      ***** DIALOG BOXES ****
 
 
-         ***** PAGE REDIRECT ******
+    >> Different types of dialog boxes in JavaScript 
 
-    Redirect is a way to send both users and search engines to a different URL from the one 
-they originally requested. Page redirection is a way to automatically redirect a web page 
-to another web page. The redirected page is often on the same website, or it can be on a 
-different website or a web server.
-JavaScript Page Redirection
-window.location and window.location.href
-In JavaScript, you can use many methods to redirect a web page to another one. Almost 
-all methods are related to window.location object, which is a property of the Window 
-object. It can be used to get the current URL address (web address) and to redirect the 
-browser to a new page. Both usages are same in terms of behavior. window.location
-returns an object. If .href is not set, window.location defaults to change the parameter 
-.href.
+Alert dialog box The alert () method is used to display an alert box with a message. The dialog box will block the...
+Confirmation dialog box The confirm () dialog box is used to get a confirmation for specific user action. <!DOCTYPE...
+Prompt dialog box The prompt() dialog box that can get the input from the user. This will return the null value when you click on
+ the Cancel button.
 
 
 
-  assign() vs. replace()
-The difference between assign() and replace() method is that the location.replace() 
-method deletes the current URL from the document history, so it is unable to navigate 
-back to the original document. You can't use the browsers "Back" button in this case. If 
-you want to avoid this situation, you should use location.assign() method, because it loads
-a new Document in the browser.
-location.reload()
-The location.reload() method reloads the current document in the browser window.
-Following is the syntax for the same.
-window.location.reload("http://www.yahoo.com");
-window.navigate()
-The window.navigate() method is similar to assigning a new value to the 
-window.location.href property. Because it is only available in MS Internet Explorer, so you 
-should avoid using this in cross-browser development.
-Following is the syntax for the same.
-window.navigate("http://www.abc.com");
-
-
- Redirection and Search EngineOptimization
-If you want to notify the search engines (SEO) about your URL forwarding, you should add 
-the rel="canonical" meta tag to your website head part because search engines don't 
-analyze JavaScript to check the redirection.
-Following is the syntax for the same.
-<link rel="canonical" href="http://abc.com/" />
+    JavaScript supports three important types of dialog boxes. These dialog boxes can be used 
+to raise and alert, or to get confirmation on any input or to have a kind of input from the 
+users. Here we will discuss each dialog box one by one.
+Alert DialogBox
+An alert dialog box is mostly used to send a warning message to the users. For example, 
+if one input field requires to enter some text but the user does not provide any input, then 
+as a part of validation, you can use an alert box to send a warning message. 
+Nonetheless, an alert box can still be used for friendlier messages. Alert box provides only 
+one button "OK" to select and proceed.
