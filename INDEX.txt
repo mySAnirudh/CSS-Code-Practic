@@ -1,43 +1,44 @@
 
 
-      **** COOKIES ****
 
-    
-  JavaScript Cookies. A cookie is an amount of information that
-   persists between a server-side and a client-side. A web browser
-    stores this information at the time of browsing. A cookie contains 
-    the information as a string generally 
-  in the form of a name-value pair separated by semi-colons.
+         ***** PAGE REDIRECT ******
 
-  
+    Redirect is a way to send both users and search engines to a different URL from the one 
+they originally requested. Page redirection is a way to automatically redirect a web page 
+to another web page. The redirected page is often on the same website, or it can be on a 
+different website or a web server.
+JavaScript Page Redirection
+window.location and window.location.href
+In JavaScript, you can use many methods to redirect a web page to another one. Almost 
+all methods are related to window.location object, which is a property of the Window 
+object. It can be used to get the current URL address (web address) and to redirect the 
+browser to a new page. Both usages are same in terms of behavior. window.location
+returns an object. If .href is not set, window.location defaults to change the parameter 
+.href.
 
-    Web Browsers and Servers use HTTP protocol to communicate. HTTP is stateless protocol,
-i.e., it doesn’t maintain the client’s data across multiple requests made by the client. This 
-complete request-response cycle between the client and the server is defined as a 
-session. Cookies are the default mechanism used by browsers to store data pertaining to 
-a user’s session.
-HowItWorks?
-Your server sends some data to the visitor's browser in the form of a cookie. The browser 
-may accept the cookie. If it does, it is stored as a plain text record on the visitor's hard 
-drive. Now, when the visitor arrives at another page on your site, the browser sends the 
-same cookie to the server for retrieval. Once retrieved, your server knows/remembers 
-what was stored earlier.
-Cookies are plain text data record of 5 variable-length fields.
- Expires: The date the cookie will expire. If this is blank, the cookie will expire 
-when the visitor quits the browser.
- Domain: The domain name of your site.
- Path: The path to the directory or web page that sets the cookie. This may be 
-blank, if you want to retrieve the cookie from any directory or page.
- Secure: If this field contains the word "secure", then the cookie may only be 
-retrieved with a secure server. If this field is blank, no such restriction exists.
- Name=Value: Cookies are set and retrieved in the form of key-value pairs.
-Cookies were originally designed for CGI programming. The data contained in a cookie is 
-automatically transmitted between the web browser and the web server, so CGI scripts on 
-the server can read and write cookie values that are stored on the client side.
-JavaScript can also manipulate cookies using the cookie property of the Document object. 
-JavaScript can read, create, modify, and delete the cookies that apply to the current web 
-page.
-StoringCookies
-The simplest way to create a cookie is to assign a string value to the document.cookie
-object, which looks like this.
-document.cookie = "key1=value1;key2=value2;expires=date";
+
+
+  assign() vs. replace()
+The difference between assign() and replace() method is that the location.replace() 
+method deletes the current URL from the document history, so it is unable to navigate 
+back to the original document. You can't use the browsers "Back" button in this case. If 
+you want to avoid this situation, you should use location.assign() method, because it loads
+a new Document in the browser.
+location.reload()
+The location.reload() method reloads the current document in the browser window.
+Following is the syntax for the same.
+window.location.reload("http://www.yahoo.com");
+window.navigate()
+The window.navigate() method is similar to assigning a new value to the 
+window.location.href property. Because it is only available in MS Internet Explorer, so you 
+should avoid using this in cross-browser development.
+Following is the syntax for the same.
+window.navigate("http://www.abc.com");
+
+
+ Redirection and Search EngineOptimization
+If you want to notify the search engines (SEO) about your URL forwarding, you should add 
+the rel="canonical" meta tag to your website head part because search engines don't 
+analyze JavaScript to check the redirection.
+Following is the syntax for the same.
+<link rel="canonical" href="http://abc.com/" />
