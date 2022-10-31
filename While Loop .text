@@ -1,0 +1,12 @@
+
+   ** While Loop **
+
+   While writing a program, you may encounter a situation where you need to 
+perform an action over and over again. In such situations, you would need to 
+write loop statements to reduce the number of lines.
+JavaScript supports all the necessary loops to ease down the pressure of 
+programming.
+
+while (expression){
+ Statement(s) to be executed if expression is true
+}
