@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hypotenuse(a, b) {
+ function square(x) { return x*x; }
+ 
+ return Math.sqrt(square(a) + square(b));
+}
+function secondFunction(){
+ var result;
+ result = hypotenuse(1,2);
+ document.write ( result );
+}
+</script>
+</head>
+
+<body>
+  
+ 
+<p>Click the following button to call the function</p>
+<form> 
+<input type="button" onclick="secondFunction()" value="Call Function"> 
+</form>
+<p>Use different parameters inside the function and then try...</p>
+
+</body>
+</html>
