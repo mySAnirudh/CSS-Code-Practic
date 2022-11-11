@@ -1,0 +1,8 @@
+
+
+      **** Multimedia ****
+
+    
+  The JavaScript navigator object includes a child object called plugins. This 
+object is an array, with one entry for each plug-in installed on the browser. The 
+navigator.plugins object is supported only by Netscape, Firefox, and Mozilla only.
