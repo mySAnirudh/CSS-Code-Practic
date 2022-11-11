@@ -1,0 +1,43 @@
+You can use JavaScript to create a complex animation having, but not limited to, 
+the following elements:
+ Fireworks
+ Fade Effect
+ Roll-in or Roll-out
+ Page-in or Page-out
+ Object movements
+You might be interested in existing JavaScript based animation 
+library: Script.Aculo.us.
+This tutorial provides a basic understanding of how to use JavaScript to create 
+an animation.
+JavaScript can be used to move a number of DOM elements (<img />, <div>, or 
+any other HTML element) around the page according to some sort of pattern 
+determined by a logical equation or function.
+JavaScript provides the following two functions to be frequently used in 
+animation programs.
+ setTimeout (function, duration) - This function calls function after
+duration milliseconds from now.
+ setInterval (function, duration) - This function calls function after 
+every duration milliseconds.
+ clearTimeout (setTimeout_variable) - This function clears any timer 
+set by the setTimeout() function.
+JavaScript can also set a number of attributes of a DOM object including its 
+position on the screen. You can set top and left attribute of an object to position 
+it anywhere on the screen. Here is its syntax.
+// Set distance from left edge of the screen.
+object.style.left = distance in pixels or points; 
+or
+// Set distance from top edge of the screen.
+object.style.top = distance in pixels or points;
+
+Manual Animation
+So let's implement one simple animation using DOM object properties and 
+JavaScript functions as follows. The following list contains different DOM 
+methods.
+ We are using the JavaScript function getElementById() to get a DOM 
+object and then assigning it to a global variable imgObj.
+ We have defined an initialization function init() to initialize imgObj where 
+we have set its position and left attributes.
+ We are calling initialization function at the time of window load.
+ Finally, we are calling moveRight() function to increase the left distance 
+by 10 pixels. You could also set it to a negative value to move it to the left 
+side.
