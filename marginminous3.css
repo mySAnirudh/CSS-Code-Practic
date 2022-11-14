@@ -1,0 +1,23 @@
+.sam{
+    border:solid rebeccapurple 4px;
+    padding: 20px 50px 30px 70px;
+    /* margin: 30px; */
+    }
+ 
+     body{
+         /* border: red dotted 20px; */
+
+         border: 5px dotted red;
+
+     }
+     #gol{
+        margin-top: -90px;
+         margin-bottom: 20px;
+         margin-left: 60px;
+         margin-right: 10%;
+
+         /* You can also deside margin with top bottmo / left ritht or cloockwise */
+
+/* You can alos give margin in minou */
+     }
+
