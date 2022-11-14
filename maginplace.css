@@ -1,0 +1,19 @@
+.sam{
+    border: solid red 2px;
+    padding: 25px  50px 30px 40px;
+}
+
+body{
+    border: 5px dotted red;
+}
+
+#gol{
+    /* margin-top: -40px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px; */
+
+    width: 300px;
+    margin: 20px;
+    /* When two margin is give then margin mix is called margin clossep */
+}
