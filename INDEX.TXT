@@ -1,16 +1,5 @@
-HTML offers web authors three ways for specifying lists of information. All lists must 
-contain one or more list elements. Lists may contain:
- <ul> - An unordered list. This will list items using plain bullets.
- <ol> - An ordered list. This will use different schemes of numbers to list your 
-items.
- <dl> - A definition list. This arranges your items in the same way as they are 
-arranged in a dictionary.
+<a href="Document URL" ... attributes-list>Link Text</a>
 
-The type Attribute
-You can use type attribute for <ol> tag to specify the type of numbering you like. By 
-default, it is a number. Following are the possible options:
-<ol type="1"> - Default-Case Numerals.
-<ol type="I"> - Upper-Case Numerals.
-<ol type="i"> - Lower-Case Numerals.
-<ol type="a"> - Lower-Case Letters.
-<ol type="A"> - Upper-Case Letters
+ This is Link Tags :-
+
+    
