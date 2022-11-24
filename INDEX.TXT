@@ -1,5 +1,0 @@
-<a href="Document URL" ... attributes-list>Link Text</a>
-
- This is Link Tags :-
-
-    
