@@ -1,5 +1,2 @@
-var x= '20';
-for(i=0;i<=10;i++)
-{
-    console.log(i);
-}
+const colors= require('colors');
+console.log("This is Output Color".red);
