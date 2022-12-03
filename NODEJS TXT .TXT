@@ -1,30 +1,8 @@
 
+    ** Make Basic Server Output and Bowser **
 
-   ** Core module in NodejS **
+  1. Make Baisc Server 
+  2. Function as parameter in node
+  3. Arrow Function
+  4. Get Output on Browser 
 
-   1/ What is the core modules?
-   2/ What are the global module?
-   3/ Global module example 
-   4/ Non-Global module
-
-
-   ** There is two types of module 
-   1. Core module :- (Aloso Two types):- Global and Non-Global module
-   2. External module
-
-   ** Har ek programming language ke under ek basic feature pahle se hote hai kuch it's calle core module
-
-     e.g. Console, buffer, http etc.. is core module
-
-     - jo basic features pahle se programming ke under pahle se hote hai use core module bolte hai
-
-     ** Global module :- Aise module jise import karne ki jrurt nahi parti 
-        e.g. Console 
-
-    ** Non-Global Module :- Jo module import karne padte hai vo hai non-global module
-       e.g. var hello = 10; 
-          so var (hello) importing , so, it's called non-global-module
-
-
-    ** How to create file :- const fs= required('fs');
-    fs.writeFileSync("hello.txt","Hello Samrat") // This is Create file which name is hello and write text inside the file "Hello Samrat"
