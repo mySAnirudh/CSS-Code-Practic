@@ -1,11 +1,30 @@
 
 
-   *** Fundaments of Node JS *** 
+   ** Core module in NodejS **
 
-   1. JavaScript Fundaments for node js
-   
-   2. Conditions, Loops and Array
+   1/ What is the core modules?
+   2/ What are the global module?
+   3/ Global module example 
+   4/ Non-Global module
 
-   3. The important function and variables from another file
 
-   4
+   ** There is two types of module 
+   1. Core module :- (Aloso Two types):- Global and Non-Global module
+   2. External module
+
+   ** Har ek programming language ke under ek basic feature pahle se hote hai kuch it's calle core module
+
+     e.g. Console, buffer, http etc.. is core module
+
+     - jo basic features pahle se programming ke under pahle se hote hai use core module bolte hai
+
+     ** Global module :- Aise module jise import karne ki jrurt nahi parti 
+        e.g. Console 
+
+    ** Non-Global Module :- Jo module import karne padte hai vo hai non-global module
+       e.g. var hello = 10; 
+          so var (hello) importing , so, it's called non-global-module
+
+
+    ** How to create file :- const fs= required('fs');
+    fs.writeFileSync("hello.txt","Hello Samrat") // This is Create file which name is hello and write text inside the file "Hello Samrat"
