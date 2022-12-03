@@ -1,0 +1,11 @@
+
+
+   *** Fundaments of Node JS *** 
+
+   1. JavaScript Fundaments for node js
+   
+   2. Conditions, Loops and Array
+
+   3. The important function and variables from another file
+
+   4
