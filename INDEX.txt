@@ -1,23 +1,31 @@
 
    
-      ***** DIALOG BOXES ****
+     **** DATE  *****
 
-
-    >> Different types of dialog boxes in JavaScript 
-
-Alert dialog box The alert () method is used to display an alert box with a message. The dialog box will block the...
-Confirmation dialog box The confirm () dialog box is used to get a confirmation for specific user action. <!DOCTYPE...
-Prompt dialog box The prompt() dialog box that can get the input from the user. This will return the null value when you click on
- the Cancel button.
-
-
-
-    JavaScript supports three important types of dialog boxes. These dialog boxes can be used 
-to raise and alert, or to get confirmation on any input or to have a kind of input from the 
-users. Here we will discuss each dialog box one by one.
-Alert DialogBox
-An alert dialog box is mostly used to send a warning message to the users. For example, 
-if one input field requires to enter some text but the user does not provide any input, then 
-as a part of validation, you can use an alert box to send a warning message. 
-Nonetheless, an alert box can still be used for friendlier messages. Alert box provides only 
-one button "OK" to select and proceed.
+     The Date object is a datatype built into the JavaScript language. Date objects are created 
+with the new Date () as shown in the following syntax.
+Once a Date object is created, a number of methods allow you to operate on it. Most 
+methods simply allow you to get and set the year, month, day, hour, minute, second, and 
+millisecond fields of the object, using either local time or UTC (universal, or GMT) time. 
+The ECMAScript standard requires the Date object to be able to represent any date and 
+time, to millisecond precision, within 100 million days before or after 1/1/1970. This is a 
+range of plus or minus 273,785 years, so JavaScript can represent date and time till the 
+year 275755. 
+You can use any of the following syntax to create a Date object using Date () 
+constructor. 
+new Date( )
+new Date(milliseconds)
+new Date(datestring)
+new Date(year,month,date[,hour,minute,second,millisecond ])
+Note: Parameters in the brackets are always optional.
+Date Properties
+Here is a list of the properties of the Date object along with their description.
+Property Description
+constructor Specifies the function that creates an object's prototype
+prototype The prototype property allows you to add properties and methods to an 
+object
+Constructor
+Javascript date constructor property returns a reference to the array function that created 
+the instance's prototype.
+Syntax
+date.constructor    
