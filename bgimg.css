@@ -1,0 +1,12 @@
+#bg{
+    background-color: rgb(59, 133, 65);
+    background-image: url('32.jpg');
+    background-image: repeat;
+    /* background-position: right top; */
+  /* background-image:none; */
+/* background-position:60px; */
+/* background-size: 700px 600px; */
+/* background-size: 50% 50%; */
+background-attachment: scroll;
+
+}
