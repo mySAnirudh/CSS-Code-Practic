@@ -1,26 +1,12 @@
-Lists are very helpful in conveying a set of either numbered or bulleted points. 
-This chapter teaches you how to control list type, position, style, etc., using 
-CSS.
-We have the following five CSS properties, which can be used to control lists:
- The list-style-type allows you to control the shape or appearance of the 
-marker.
- The list-style-position specifies whether a long point that wraps to a 
-second line should align with the first line or start underneath the start of 
-the marker.
- The list-style-image specifies an image for the marker rather than a 
-bullet point or number.
- The list-style serves as shorthand for the preceding properties.
- The marker-offset specifies the distance between a marker and the text 
-in the list.
-Now we will see how to use these properties with examples.
-The list-style-type Property
-The list-style-type property allows you to control the shape or style of a bullet 
-point (also known as a marker) in case of unordered lists and the style of 
-numbering characters in ordered lists.
-Here are the values, which can be used for an unordered list:
-Value Description
-None NA
-disc (default) A filled-in circle
-Circle An empty circle
 
-Square A filled-in square
+
+    *** LAYERS ***
+
+    CSS gives you an opportunity to create layers of various divisions. The CSS 
+layers refer to applying the z-index property to elements that overlap with each 
+other.
+The z-index property is used along with the position property to create an effect 
+of layers. You can specify which element should come on top and which element 
+should come at bottom.
+A z-index property can help you to create more complex webpage layouts. The 
+following example shows how to create layers in CSS.
