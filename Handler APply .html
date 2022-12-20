@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+        <script>
+ function rectangleArea(width,height){
+ return width*height;
+ }
+ const handler = {
+ apply:function(target,thisArgs,argsList){
+ console.log(argsList);
+ //console.log(target)
+ if(argsList.length ==2){
+ return Reflect.apply(target,thisArgs,argsList)
+ }
+ else throw 'Invalid no of arguments to calculate'
+ }
+ }
+ const proxy = new Proxy(rectangleArea,handler)
+ const result = proxy(10,20);
+ console.log('area is ',result)
+ proxy(10) // Error
+ </script>
+
+
+</body>
+</html>

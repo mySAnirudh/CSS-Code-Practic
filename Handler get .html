@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Student{
+        constructor(firstName,lastName){
+        this.firstName = firstName
+        this.lastName = lastName
+        }
+        get fullName(){
+        return `${this.firstName} : ${this.lastName}`
+        }
+        }
+        const handler = {
+        get: function(target,property){
+        return Reflect.get(target,property).toUpperCase();
+        }
+        }
+        const s1 = new Student("Tutorials","Point")
+        const proxy = new Proxy(s1,handler)
+        console.log(proxy.fullName)
+        console.log(proxy.firstName)
+        console.log(proxy.lastName)
+        </script>
+       
+</body>
+</html>

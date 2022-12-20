@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Student{
+        constructor(firstName,lastName){
+        this.firstName = firstName
+        this.lastName = lastName
+        }
+        get fullName(){
+        return `${this.firstName} : ${this.lastName}`
+        }
+        }
+        const handler = {
+            construct:function(target,args){
+ if(args.length==2)
+ {
+ return Reflect.construct(target,args);
+ }
+ else throw 'Please enter First name and Last name' 
+ }
+ }
+ const StudentProxy = new Proxy(Student,handler)
+ const s1 = new StudentProxy('kannan','sudhakaran')
+ console.log(s1.fullName)
+ const s2 = new StudentProxy('Tutorials')
+ console.log(s2.fullName)
+ </script>             
+</body>
+</html>
