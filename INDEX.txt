@@ -1,23 +1,25 @@
 
-     
 
-          **** PROXY API ****
+ 
+     **** BOOLEAN ****
 
-    ES6 implements intercession form of meta programming using Proxies. Similar to 
-ReflectAPI, the Proxy API is another way of implementing meta programming in ES6. The 
-Proxy object is used to define custom behavior for fundamental operations. A proxy object 
-performs some operations on behalf of the real object.
-The various terminologies related to ES6 proxies are given below:
-Sr No Terminology Description
-1 handler Placeholder object which contains traps
-2 traps
-The methods that provide property access. This is 
-analogous to the concept of traps in operating 
-systems
-3 target Object which the proxy virtualizes. It is often used 
-as storage backend for the proxy.
-Syntax
-The syntax stated below is for the Proxy API, where, target can be any sort of object like 
-array, function or another proxy and handler is an object whose properties are functions. 
-This defines the behavior of the proxy.
-const proxy = new Proxy(target,handler)
+     The Boolean object represents two values, either "true" or "false". If the value parameter 
+is omitted or is 0, -0, null, false, NaN, undefined, or the empty string (""), the object has 
+an initial value of false.
+Use the following syntax to create a boolean object. 
+var val = new Boolean(value);
+Boolean Properties
+Following is a list of the properties of Boolean object.
+Property Description
+constructor Returns a reference to the Boolean function that created the 
+object. 
+prototype The prototype property allows you to add properties and methods 
+to an object. 
+In the following sections, we will look at a few examples to illustrate the properties of 
+Boolean object. 
+constructor ()
+Javascript Boolean constructor() method returns a reference to the Boolean function that 
+created the instance's prototype.
+Use the following syntax to create a Boolean constructor() method. It returns the function 
+that created this object's instance.
+boolean.constructor()
